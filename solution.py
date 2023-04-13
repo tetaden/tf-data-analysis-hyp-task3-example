@@ -8,6 +8,6 @@ def solution(x: np.array, y: np.array) -> bool: # Одна или две выб�
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    alternative = "greater"
+    alternative = "less"
     ans = mannwhitneyu(x, y, alternative=alternative).pvalue < 0.03
     return ans # Ваш ответ, True или False
